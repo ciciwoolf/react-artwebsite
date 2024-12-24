@@ -28,7 +28,7 @@
 @media screen and (max-width: 1440px) {
   .name,
   .title {
-    padding: 2.5rem;
+    padding: 3rem;
   }
 }
 
@@ -53,16 +53,20 @@
     align-items: center;
   }
 
-  .name {
-    font-size: 1.5rem;
-  }
+  .name,
   .title {
-    font-size: 1.25rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .wrapper {
+    padding: 4rem;
+  }
+  .name,
   .title {
-    font-size: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
   }
 }
