@@ -17,7 +17,7 @@
 
 .name,
 .title {
-  padding: 2rem;
+  padding: 5rem;
   text-shadow: #262027 5px 0 14px;
   font-family: 'Homemade Apple', cursive, sans-serif;
   color: whitesmoke;
@@ -25,6 +25,12 @@
 }
 
 /* Media Queries */
+@media screen and (max-width: 1440px) {
+  .name,
+  .title {
+    padding: 2.5rem;
+  }
+}
 
 @media screen and (max-width: 1250px) {
   .wrapper {
@@ -47,14 +53,15 @@
     align-items: center;
   }
 
-  .name,
+  .name {
+    font-size: 1.5rem;
+  }
   .title {
     font-size: 1.25rem;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .name,
   .title {
     font-size: 1rem;
   }
