@@ -1,0 +1,61 @@
+.container {
+  height: 37vh;
+  background: url('https://artofcici-img.s3.amazonaws.com/sidebar3.jpg')
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.name,
+.title {
+  padding: 2rem;
+  text-shadow: #262027 5px 0 14px;
+  font-family: 'Homemade Apple', cursive, sans-serif;
+  color: whitesmoke;
+  font-size: 2.25rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .name,
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name,
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .name,
+  .title {
+    font-size: 1rem;
+  }
+}

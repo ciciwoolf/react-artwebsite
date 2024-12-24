@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,13 +10,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Using AWS S3 for storage.
 
-## Learn More
+## Colors
 
-To learn more about Next.js, take a look at the following resources:
+Color Palette
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://mycolor.space/?hex=%238C2155&sub=1
 
 ## Deploy on Vercel
+
+#www.theartofciciwoolf.com
 
 This app is deployed using Vercel.

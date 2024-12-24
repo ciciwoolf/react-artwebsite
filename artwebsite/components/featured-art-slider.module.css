@@ -1,0 +1,25 @@
+.sliderContainer {
+  height: 63vh;
+  border: black;
+}
+
+.slideWrapper {
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.swiperSlide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperImage {
+  display: block;
+  object-fit: cover;
+}
