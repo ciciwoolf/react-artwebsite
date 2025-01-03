@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .container {
   display: flex;
@@ -7,28 +8,35 @@
 }
 
 .footer {
-  font-size: 40px;
   background: #8c2155;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 50vh;
 }
 
-.footerLinks {
-  margin-bottom: 2rem;
-}
-
-.menu_bottom {
-  margin-bottom: 3rem;
-  margin-right: 2rem;
-  font-family: 'Homemade Apple', cursive, sans-serif;
+.footer a {
+  padding: 1rem;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 200;
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   text-decoration: none;
 }
 
-.menu_bottom_last {
-  margin-right: 3rem;
+.footer a:hover {
+  color: #14b3ba !important;
+}
+
+@media screen and (max-width: 768px) {
+  .footer a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer a {
+    font-size: 1rem;
+  }
 }

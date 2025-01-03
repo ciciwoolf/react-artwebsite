@@ -8,7 +8,10 @@ export default function Home() {
     <div className={styles.container}>
       <MainHeader />
       <FeaturedArtSlider data={SquareWorks} />
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>
+        <a href="https://github.com/ciciwoolf">Github</a>
+        <a href="https://www.linkedin.com/in/christinewoolf/">LinkedIn</a>
+      </footer>
     </div>
   );
 }

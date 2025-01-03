@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
 .container {
   height: 37vh;
   background: url('https://artofcici-img.s3.us-east-1.amazonaws.com/backghroundida.jpg')
@@ -30,10 +32,17 @@
 .name,
 .title {
   padding: 5rem;
-  text-shadow: #262027 5px 0 14px;
-  font-family: 'Homemade Apple', cursive, sans-serif;
   color: whitesmoke;
-  font-size: 2.25rem;
+}
+
+.name,
+.title {
+  font-family: 'Homemade Apple', cursive, sans-serif;
+  font-size: 2.75rem;
+}
+
+.title {
+  font-size: 2.5rem;
 }
 
 /* Media Queries */

@@ -6,7 +6,7 @@ export const SquareWorks = [
   },
   {
     id: 2,
-    header: 'Beloved Pets, now in my dreams.',
+    header: 'Beloved Pets, now in my Dreams.',
     img: 'https://artofcici-img.s3.us-east-1.amazonaws.com/pets-tree.jpg',
   },
   {
