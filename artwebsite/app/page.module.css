@@ -1,38 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 .container {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.content {
-  height: 100vh;
-  flex-grow: 3;
-  background: #ffffff;
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.sidebar {
-  min-width: 30%;
-  flex-grow: 0.3;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: url('https://artofcici-img.s3.amazonaws.com/sidebar3.jpg')
-    no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  animation-name: imageAppear;
-  animation-duration: 2s;
+  justify-content: flex-start;
 }
 
 @keyframes imageAppear {
@@ -43,34 +14,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.name {
-  margin-top: 3rem;
-  padding: 0 2rem 0 0;
-  font-family: 'Homemade Apple', cursive, sans-serif;
-  color: whitesmoke;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.city {
-  margin-bottom: 3rem;
-  padding: 0 2rem 0 0;
-  align-self: flex-end;
-  text-align: center;
-  font-family: 'Homemade Apple', cursive, sans-serif;
-  color: whitesmoke;
-  font-size: 2rem;
-}
-
-.galleryLinks {
-  padding: 0 2rem 0 0;
-  align-self: flex-end;
-  text-align: center;
-  font-family: 'Homemade Apple', cursive, sans-serif;
-  color: whitesmoke;
-  font-size: 1rem;
 }
 
 .footer {
@@ -98,115 +41,4 @@
 
 .menu_bottom_last {
   margin-right: 3rem;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 1350px) {
-  .name {
-    padding: 0.75rem;
-    text-align: center;
-    font-size: 1.8rem;
-  }
-
-  .city {
-    padding: 0.75rem;
-    text-align: center;
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .sidebar {
-    min-width: none;
-  }
-  .name {
-    padding: 0.75rem;
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  .city {
-    padding: 0.75rem;
-    text-align: center;
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    font-size: 10px;
-    background: LightGray;
-  }
-
-  .content {
-    background: #ffffff;
-    flex-wrap: wrap;
-  }
-
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: url('https://artofcici-img.s3.amazonaws.com/sidebar3.jpg')
-      no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
-
-  .name {
-    margin-top: 3rem;
-    padding: 0 2rem 0 0;
-    font-family: 'Homemade Apple', cursive, sans-serif;
-    color: whitesmoke;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .city {
-    margin-bottom: 3rem;
-    padding: 0 2rem 0 0;
-    align-self: flex-end;
-    text-align: center;
-    font-family: 'Homemade Apple', cursive, sans-serif;
-    color: whitesmoke;
-    font-size: 2rem;
-  }
-
-  .footer {
-    font-size: 40px;
-    background: #8c2155;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 50vh;
-  }
-
-  .contact {
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-    font-family: 'Homemade Apple', cursive, sans-serif;
-    color: white;
-    font-size: 1rem;
-  }
-
-  .gallery {
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-    font-family: 'Homemade Apple', cursive, sans-serif;
-    color: white;
-    font-size: 1rem;
-  }
 }
