@@ -7,10 +7,10 @@ import { MainHeader } from '@/components/MainHeader';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <section className={styles.content}>
-        <MainHeader />
+      <MainHeader />
+      <div className={styles.artsliderContainer}>
         <FeaturedArtSlider data={SquareWorks} />
-      </section>
+      </div>
       <footer className={styles.footer}></footer>
     </div>
   );
