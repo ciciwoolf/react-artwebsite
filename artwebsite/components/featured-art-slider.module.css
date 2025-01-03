@@ -11,3 +11,7 @@
   animation-name: imageAppear;
   animation-duration: 2s;
 }
+
+.swiperSlide {
+  background-color: #ffffff;
+}
