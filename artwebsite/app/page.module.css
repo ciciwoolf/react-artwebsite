@@ -6,16 +6,6 @@
   justify-content: flex-start;
 }
 
-@keyframes imageAppear {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .footer {
   font-size: 40px;
   background: #8c2155;

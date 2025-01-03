@@ -6,6 +6,18 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  animation-name: imageAppear;
+  animation-duration: 2s;
+}
+
+@keyframes imageAppear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .wrapper {
