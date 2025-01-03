@@ -14,7 +14,7 @@ import { ArrowRightButton } from './ArrowRightButton';
 
 export const FeaturedArtSlider = ({ data }) => {
   return (
-    <section className="pt-[7rem] sm: pt-[2rem] pb-[2rem]">
+    <section className="pt-12 pb-[2rem]">
       <div className="lg:mx-auto max-w-5xl mx-[1.5rem]">
         <Swiper
           modules={[Autoplay, Pagination, EffectFade, Navigation]}
@@ -45,9 +45,9 @@ export const FeaturedArtSlider = ({ data }) => {
                   />
                 </div>
                 <div className="pt-4">
-                  <div className="title ">
-                    <div className="px-y pt-3 mb-[2rem] text-center">
-                      <h1 className="font-bold">{p.header}</h1>
+                  <div>
+                    <div className="pt-3 pb-3 mb-[2rem] text-center">
+                      <h1 className={styles.title}>{p.header}</h1>
                     </div>
                   </div>
                 </div>
