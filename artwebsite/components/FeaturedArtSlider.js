@@ -47,7 +47,7 @@ export const FeaturedArtSlider = ({ data }) => {
                 <div className="pt-4">
                   <div>
                     <div className="pt-3 pb-3 mb-[2rem] text-center">
-                      <h1 className={styles.title}>{p.header}</h1>
+                      <p className={styles.title}>{p.header}</p>
                     </div>
                   </div>
                 </div>
