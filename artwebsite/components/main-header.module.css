@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
 .container {
-  height: 37vh;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
   background: url('https://artofcici-img.s3.us-east-1.amazonaws.com/backghroundida.jpg')
     no-repeat;
   -webkit-background-size: cover;
@@ -23,71 +27,56 @@
 }
 
 .wrapper {
-  padding: 1rem 0 1rem 0;
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  padding: 0 2rem;
 }
 
 .name,
 .title {
-  padding: 5rem;
   color: whitesmoke;
 }
 
-.name,
-.title {
+.name {
   font-family: 'Homemade Apple', cursive, sans-serif;
-  font-size: 2.75rem;
+  padding-left: 1rem;
+  font-size: 2rem;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.75rem;
 }
 
 /* Media Queries */
-@media screen and (max-width: 1440px) {
-  .name,
-  .title {
-    padding: 3rem;
-  }
-}
 
 @media screen and (max-width: 1250px) {
-  .wrapper {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-
   .name,
   .title {
-    text-align: center;
     font-size: 1.5rem;
+  }
+  .title {
+    padding: 0.5rem 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    padding: 3rem;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
-
-  .name,
   .title {
-    padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .wrapper {
-    padding: 4rem;
-  }
-  .name,
+@media screen and (max-width: 425px) {
   .title {
-    padding: 1rem;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
   }
 }
