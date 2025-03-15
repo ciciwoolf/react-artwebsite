@@ -55,32 +55,37 @@
 /* Media Queries */
 
 @media screen and (max-width: 1250px) {
-  .name,
-  .title {
-    font-size: 1.5rem;
+  .name {
+    font-size: 1.75rem;
   }
   .title {
     padding: 0.5rem 0;
+    font-size: 1.75rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
+  .container, .wrapper {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .container {
+    text-align: center;
     height: 20vh;
   }
+  .name {
+    font-size: 1.75rem;
+    padding-top: 1.25rem;
+  }
   .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-top: 1.25rem;
   }
 }
