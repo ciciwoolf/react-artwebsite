@@ -4,39 +4,5 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.footer {
-  background: #8c2155;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-}
-
-.footer a {
-  padding: 1rem;
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 200;
-  color: white;
-  font-size: 1.75rem;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  color: #14b3ba !important;
-}
-
-@media screen and (max-width: 768px) {
-  .footer a {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .footer a {
-    font-size: 1rem;
-  }
+  overflow-x: hidden;
 }

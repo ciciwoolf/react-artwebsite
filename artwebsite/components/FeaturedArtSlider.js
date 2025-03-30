@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './featured-art-slider.module.css';
+import { SquareWorks } from '@/data/data';
 
 import { Autoplay, Navigation, EffectFade, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,7 +13,7 @@ import 'swiper/css/pagination';
 import { ArrowLeftButton } from './ArrowLeftButton';
 import { ArrowRightButton } from './ArrowRightButton';
 
-export const FeaturedArtSlider = ({ data }) => {
+export const FeaturedArtSlider = () => {
   return (
     <section className="pt-12 pb-[2rem]">
       <div className="lg:mx-auto max-w-5xl mx-[1.5rem]">
@@ -31,7 +32,7 @@ export const FeaturedArtSlider = ({ data }) => {
           }}
           spaceBetween={30}
         >
-          {data.map((p) => {
+          {SquareWorks.map((p) => {
             return (
               <SwiperSlide
                 className={`${styles.swiperSlide} grid md:grid-cols-2 gap-y-10 md:gap-x-10 x-md:pt-10`}
@@ -40,7 +41,7 @@ export const FeaturedArtSlider = ({ data }) => {
                 <div className="flex justify-center items-center">
                   <img
                     src={p.img}
-                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[640px] max-h-[640px]`}
+                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[500px] max-h-[500px]`}
                     alt=""
                   />
                 </div>
