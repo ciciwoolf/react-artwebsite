@@ -14,11 +14,11 @@ export const SquareWorks = [
     header: 'Teapot and Wraps, Summer 2020 in Buenos Aires.',
     img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743284594/summerMT_rcsxik.jpg',
   },
-  {
-    id: 4,
-    header: "My friend's backyard, Woodbury MN.",
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353412/IMG_3603_duvduo.jpg',
-  },
+  // {
+  //   id: 4,
+  //   header: "My friend's backyard, Woodbury MN.",
+  //   img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353412/IMG_3603_duvduo.jpg',
+  // },
   {
     id: 5,
     header: 'Roses in a blue vase.',
