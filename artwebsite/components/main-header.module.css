@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
 .container {
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,12 +29,7 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 70px;
-}
-
-.name,
-.title {
-  color: black;
+  padding: 30px 30px 15px 30px;
 }
 
 .name {
@@ -47,7 +42,8 @@
   font-family: "Palanquin", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
 }
 
 /* Media Queries */

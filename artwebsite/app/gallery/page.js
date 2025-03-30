@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { ArtGridWorks, SquareWorks } from '@/data/data';
+import { WaterColorWorks, OilWorks} from '@/data/data';
 import { MainHeader } from '@/components/MainHeader';
 import { ArtGrid } from '@/components/ArtGrid';
 import { NavLinks } from '@/components/NavLinks';
@@ -12,7 +12,14 @@ export default function Gallery() {
     <div className={styles.container}>
       <MainHeader />
       <NavLinks link={link} />
-      <ArtGrid data={ArtGridWorks} />
+      <div className={styles.artContainer}>
+        <h1 className={styles.title}>Oil</h1>
+        <ArtGrid data={OilWorks} />
+      </div>
+      <div className={styles.artContainer}>
+        <h1 className={styles.title}>Watercolor / Gouache</h1>
+        <ArtGrid data={WaterColorWorks} />
+      </div>
       <Footer />
     </div>
   );
