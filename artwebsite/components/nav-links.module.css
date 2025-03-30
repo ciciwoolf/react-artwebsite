@@ -14,3 +14,25 @@
 .link:hover {
   color: #14b3ba !important;
 }
+
+.link.flicker {
+  animation: colorFlicker 1.5s infinite;
+}
+
+@keyframes colorFlicker {
+  0% {
+    color: #14b3ba; /* Initial color */
+  }
+  25% {
+    color: #ff6f61; /* Flicker to a second color */
+  }
+  50% {
+    color: #f4d03f; /* Flicker to a third color */
+  }
+  75% {
+    color: #14b3ba; /* Return to the initial color */
+  }
+  100% {
+    color: #14b3ba; /* Ensure it ends with the initial color */
+  }
+}
