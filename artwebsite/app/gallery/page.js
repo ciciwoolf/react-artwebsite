@@ -1,17 +1,18 @@
 import styles from './page.module.css';
+import { ArtGridWorks, SquareWorks } from '@/data/data';
 import { MainHeader } from '@/components/MainHeader';
+import { ArtGrid } from '@/components/ArtGrid';
 import { NavLinks } from '@/components/NavLinks';
-import { FeaturedArtSlider } from '@/components/FeaturedArtSlider';
 import { Footer } from '@/components/Footer';
 
-const link = { href: '/gallery', label: 'Gallery' };
+const link = { href: '/', label: 'Home' };
 
-export default function Home() {
+export default function Gallery() {
   return (
     <div className={styles.container}>
       <MainHeader />
       <NavLinks link={link} />
-      <FeaturedArtSlider />
+      <ArtGrid data={ArtGridWorks} />
       <Footer />
     </div>
   );

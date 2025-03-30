@@ -1,0 +1,15 @@
+.link {
+  align-self: flex-start;
+  padding: 0 10rem;
+  font: 1.25rem 'Palanquin', sans-serif;
+  font-weight: 300;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+      align-self: center;
+    }
+}
+
+.link:hover {
+  color: #14b3ba !important;
+}
