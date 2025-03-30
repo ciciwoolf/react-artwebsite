@@ -2,27 +2,27 @@ export const SquareWorks = [
   {
     id: 1,
     header: 'Withered white flowers.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353408/IMG_5903_pmrxen.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353408/IMG_5903_pmrxen.jpg',
   },
   {
     id: 2,
     header: 'Painting of oranges.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743353295/IMG_9096_zk9cfj.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353295/IMG_9096_zk9cfj.jpg',
   },
   {
     id: 3,
     header: 'Teapot and Wraps, Summer 2020 in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743284594/summerMT_rcsxik.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743284594/summerMT_rcsxik.jpg',
   },
   {
     id: 4,
     header: "My friend's backyard, Woodbury MN.",
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353412/IMG_3603_duvduo.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353412/IMG_3603_duvduo.jpg',
   },
   {
     id: 5,
     header: 'Roses in a blue vase.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/v1743353411/19D25E59-6965-44DB-8E3A-40B3D19B6B94_ryg6h8.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353411/19D25E59-6965-44DB-8E3A-40B3D19B6B94_ryg6h8.jpg',
   },
 ];
 
