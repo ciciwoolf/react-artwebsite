@@ -4,7 +4,7 @@ import { NavLinks } from '@/components/NavLinks';
 import { FeaturedArtSlider } from '@/components/FeaturedArtSlider';
 import { Footer } from '@/components/Footer';
 
-const link = { href: '/gallery', label: 'Gallery' };
+const link = { href: '/gallery', label: 'GALLERY' };
 
 export default function Home() {
   return (

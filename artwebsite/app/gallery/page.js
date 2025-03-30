@@ -5,7 +5,7 @@ import { ArtGrid } from '@/components/ArtGrid';
 import { NavLinks } from '@/components/NavLinks';
 import { Footer } from '@/components/Footer';
 
-const link = { href: '/', label: 'Home' };
+const link = { href: '/', label: 'HOME' };
 
 export default function Gallery() {
   return (
