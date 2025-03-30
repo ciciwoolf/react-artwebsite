@@ -29,12 +29,11 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 30px 30px 15px 30px;
+  padding: 3rem;
 }
 
 .name {
   font-family: 'Homemade Apple', cursive, sans-serif;
-  padding-left: 1rem;
   font-size: 2.5rem;
 }
 
