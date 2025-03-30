@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
 .container {
-  height: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
