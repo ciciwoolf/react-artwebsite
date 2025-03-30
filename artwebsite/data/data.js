@@ -135,4 +135,9 @@ export const OilWorks = [
     header: 'Roses in a blue vase.',
     img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/v1743353411/19D25E59-6965-44DB-8E3A-40B3D19B6B94_ryg6h8.jpg',
   },
+  {
+    id: 6,
+    header: 'Lake Elmo on a hot summer day.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511sq/v1743353402/IMG_3423_d7xrze.jpg',
+  },
 ];

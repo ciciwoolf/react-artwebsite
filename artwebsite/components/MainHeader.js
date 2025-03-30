@@ -5,7 +5,7 @@ export const MainHeader = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <p className={styles.name}>Cici Woolf</p>
-        <p className={styles.title}>Software Developer, Painter</p>
+        <p className={styles.title}>Painter & Software Developer</p>
       </div>
     </div>
   );
