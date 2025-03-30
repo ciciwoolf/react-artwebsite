@@ -60,17 +60,17 @@ export const WaterColorWorks = [
   {
     id: 7,
     header: 'Bea trees at Lake Ida.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/v1743284583/beatrees_wxnsav.png',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743369172/IMG_4329_xmzmnn.jpg',
   },
   {
     id: 8,
     header: 'Spanish Class in Buenos Aires 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/v1743284511/largeNYStill_s5uceq.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743369312/IMG_4362_dryaqv.jpg',
   },
   {
     id: 9,
     header: 'Quick flower sketch.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743353409/IMG_6664_rapsld.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743368753/IMG_6664_rapsld.jpg',
   },
   {
     id: 10,
@@ -80,7 +80,7 @@ export const WaterColorWorks = [
   {
     id: 11,
     header: 'My friend with her books.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743284591/emily_n7vykp.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743369173/IMG_4333_crxcz6.jpg',
   },
   {
     id: 12,
@@ -89,8 +89,13 @@ export const WaterColorWorks = [
   },
   {
     id: 13,
-    header: 'Withered white flowers.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353408/IMG_5903_pmrxen.jpg',
+    header: 'Palermo Soho, 2020.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511sq/v1743363015/IMG_4356_ovofkc.jpg',
+  },
+  {
+    id: 13,
+    header: 'Wandering around Buenos Aires during quarantine.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_1:1/v1743363014/IMG_4337_mnxpfx.jpg',
   },
   {
     id: 13,
@@ -99,13 +104,8 @@ export const WaterColorWorks = [
   },
   {
     id: 13,
-    header: 'Withered white flowers.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353408/IMG_5903_pmrxen.jpg',
-  },
-  {
-    id: 13,
-    header: 'Withered white flowers.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353408/IMG_5903_pmrxen.jpg',
+    header: 'Laundry, Chacarita, Buenos Aires.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511sq/v1743368622/IMG_4347_gcfast.jpg',
   },
 ];
 
