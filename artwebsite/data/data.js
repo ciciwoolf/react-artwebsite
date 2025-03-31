@@ -30,62 +30,62 @@ export const WaterColorWorks = [
   {
     id: 1,
     header: 'Teapot and wraps, 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
   },
   {
     id: 2,
-    header: 'Beloved Pets, now in my Dreams.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743284541/pets-tree_ah34c8.jpg',
+    header: 'Selfie in 2020.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284591/mask-selfie_jtoar3.jpg',
   },
   {
     id: 3,
     header: 'My friend Charlie teaching Jiu Jitsu in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743284584/charlie-jiujitsu_vdjsgm.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284539/charlie-teaching_cfz4ws.jpg',
   },
   {
     id: 4,
-    header: 'Lucio, my Argentine Quarantine Buddy.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511 square/v1743284540/lucio640_bppn52.jpg',
+    header: 'Still life of some of my favorite things.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743436178/largeNYStill_wp4tng.jpg',
   },
   {
     id: 5,
-    header: 'Bea trees at Lake Ida.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743369172/IMG_4329_xmzmnn.jpg',
+    header: 'Stormy lighthouse on Lake Superior.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743436178/lighthouse_lrfhg3.heic',
   },
   {
     id: 6,
     header: 'Quick flower sketch.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743368753/IMG_6664_rapsld.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743368753/IMG_6664_rapsld.jpg',
   },
   {
     id: 7,
     header: 'Minnesota in my Dreams.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/v1743284595/wolfMN_fkhagd.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284595/wolfMN_fkhagd.jpg',
   },
   {
     id: 8,
     header: 'My friend with her books.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743369173/IMG_4333_crxcz6.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743369173/IMG_4333_crxcz6.heic',
   },
   {
     id: 9,
     header: 'Teapot and Wraps, Summer 2020 in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743284594/summerMT_rcsxik.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
   },
   {
     id: 10,
     header: 'Palermo Soho, 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511sq/v1743363015/IMG_4356_ovofkc.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
   },
   {
     id: 11,
     header: 'Withered white flowers.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_Square/v1743353408/IMG_5903_pmrxen.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743353408/IMG_5903_pmrxen.jpg',
   },
   {
     id: 12,
     header: 'Laundry, Chacarita, Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/t_511sq/v1743368622/IMG_4347_gcfast.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743368622/IMG_4347_gcfast.heic',
   },
 ];
 
