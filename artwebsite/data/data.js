@@ -24,6 +24,10 @@ export const SquareWorks = [
     header: 'Self-potrait in a teapot.',
     img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_pad,w_1920,h_1080/v1743284593/teapot2_bqsjva.jpg',
   },
+  {id: 6, 
+    header: 'Stormy lighthouse on Lake Superior.', 
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_3:4/v1743436178/lighthouse_lrfhg3.heic',
+  },
 ];
 
 export const WaterColorWorks = [
@@ -35,7 +39,7 @@ export const WaterColorWorks = [
   {
     id: 2,
     header: 'Selfie in 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284591/mask-selfie_jtoar3.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284591/mask-selfie_jtoar3.jpg',
   },
   {
     id: 3,
@@ -50,7 +54,7 @@ export const WaterColorWorks = [
   {
     id: 5,
     header: 'Stormy lighthouse on Lake Superior.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743436178/lighthouse_lrfhg3.heic',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743436178/lighthouse_lrfhg3.jpg',
   },
   {
     id: 6,
@@ -65,17 +69,17 @@ export const WaterColorWorks = [
   {
     id: 8,
     header: 'My friend with her books.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743369173/IMG_4333_crxcz6.heic',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743369173/IMG_4333_crxcz6.jpg',
   },
   {
     id: 9,
     header: 'Teapot and Wraps, Summer 2020 in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
   },
   {
     id: 10,
     header: 'Palermo Soho, 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_1:1/v1743363015/IMG_4356_ovofkc.jpg',
   },
   {
     id: 11,
@@ -85,7 +89,7 @@ export const WaterColorWorks = [
   {
     id: 12,
     header: 'Laundry, Chacarita, Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743368622/IMG_4347_gcfast.heic',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743368622/IMG_4347_gcfast.jpg',
   },
 ];
 
