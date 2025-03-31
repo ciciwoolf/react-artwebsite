@@ -41,7 +41,7 @@ export const FeaturedArtSlider = () => {
                 <div className="flex justify-center items-center">
                   <img
                     src={p.img}
-                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[500px] max-h-[500px]`}
+                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[800px] max-h-[800px]`}
                     alt=""
                   />
                 </div>

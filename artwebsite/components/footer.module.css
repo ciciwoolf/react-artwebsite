@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: center;
     height: 50vh;
+
+    @media screen and (max-width: 425px) {
+      height: 35vh;
+    }
   }
   
   .footer a {
