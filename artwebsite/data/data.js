@@ -24,27 +24,23 @@ export const SquareWorks = [
     header: 'Self-potrait in a teapot.',
     img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_pad,w_1920,h_1080/v1743284593/teapot2_bqsjva.jpg',
   },
-  {id: 6, 
-    header: 'Stormy lighthouse on Lake Superior.', 
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_3:4/v1743436178/lighthouse_lrfhg3.heic',
-  },
 ];
 
 export const WaterColorWorks = [
   {
     id: 1,
     header: 'Teapot and wraps, 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
   },
   {
     id: 2,
     header: 'Selfie in 2020.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284591/mask-selfie_jtoar3.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284540/cici_fangyb.jpg',
   },
   {
     id: 3,
     header: 'My friend Charlie teaching Jiu Jitsu in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,ar_1:1/v1743284539/charlie-teaching_cfz4ws.jpg',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284539/charlie-teaching_cfz4ws.jpg',
   },
   {
     id: 4,
@@ -73,8 +69,8 @@ export const WaterColorWorks = [
   },
   {
     id: 9,
-    header: 'Teapot and Wraps, Summer 2020 in Buenos Aires.',
-    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284593/teapot2_bqsjva.jpg',
+    header: 'Señor Toad.',
+    img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_fill,w_640,h_640,ar_1:1/v1743284593/toad_eoov9z.jpg',
   },
   {
     id: 10,
