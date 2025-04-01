@@ -5,7 +5,6 @@ export const metadata = {
   description: "Cici Woolf's Digital Art Portfolio.",
   keywords: "art, software, Christine Woolf, Cici Woolf, paintings",
   author: "Christine 'Cici' Woolf",
-  viewport: "width=device-width, initial-scale=1, user-scalable=yes",
 };
 
 export default function RootLayout({ children }) {

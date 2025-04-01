@@ -2,7 +2,7 @@
 
 .container {
   height: 100%;
-  padding-top: 3rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,6 +68,7 @@
 @media screen and (max-width: 425px) {
   .container {
     text-align: center;
+    padding-top: 1rem;
   }
   .name {
     font-size: 2rem;

@@ -43,6 +43,7 @@
   border-radius: 5px;
   box-shadow: 0 0 5px #352f36;
   transition: all 1s;
+  max-width: 450px;
 }
 
 .gridItem img {

@@ -6,12 +6,14 @@ import { NavLinks } from '@/components/NavLinks';
 import { Footer } from '@/components/Footer';
 
 const link = { href: '/', label: 'HOME' };
+const link_js = { href: '/digital', label: 'DIGITAL ART' };
 
 export default function Gallery() {
   return (
     <div className={styles.container}>
       <MainHeader />
       <NavLinks link={link} />
+      <NavLinks link={link_js} />
       <div className={styles.artContainer}>
         <h1 className={styles.title}>Oil</h1>
         <ArtGrid data={OilWorks} />

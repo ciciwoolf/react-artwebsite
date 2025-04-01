@@ -121,3 +121,20 @@ export const OilWorks = [
     img: 'https://res.cloudinary.com/dmezw1zxr/image/upload/c_crop,ar_1:1/v1743353402/IMG_3423_d7xrze.jpg',
   },
 ];
+
+export const DigitalWorks = [
+  {
+    id: 1,
+    publicId: 'violetRiver_dqkufw',
+    cloudName: 'dmezw1zxr',
+    header: 'Violet River',
+  },
+  {
+    id:2,
+    publicId: 'spiderweb_yypefc',
+    cloudName: 'dmezw1zxr',
+    header: 'SpiderWeb.js',
+  },
+];
+
+
