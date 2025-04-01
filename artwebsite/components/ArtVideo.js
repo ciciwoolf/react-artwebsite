@@ -32,6 +32,7 @@ const ArtVideo = ({ publicId, cloudName }) => {
       loop
       poster={poster}
       muted
+      playsInline
       className={styles.artVideo}
       style={{ maxWidth: '600px', maxHeight: '600px' }}
     />
