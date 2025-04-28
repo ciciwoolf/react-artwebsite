@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './featured-art-slider.module.css';
-import { SquareWorks } from '@/data/data';
+import Image from 'next/image';
 
 import { Autoplay, Navigation, EffectFade, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,7 +13,8 @@ import 'swiper/css/pagination';
 import { ArrowLeftButton } from './ArrowLeftButton';
 import { ArrowRightButton } from './ArrowRightButton';
 
-export const FeaturedArtSlider = () => {
+export const FeaturedArtSlider = ({ featuredWork }) => {
+
   return (
     <section className="mt-[1rem] mb-[1rem]">
       <div className="lg:mx-auto max-w-5xl mx-[1.5rem]">
@@ -32,15 +33,17 @@ export const FeaturedArtSlider = () => {
           }}
           spaceBetween={30}
         >
-          {SquareWorks.map((p) => {
+          {featuredWork.map((art) => {
             return (
               <SwiperSlide
                 className={`${styles.swiperSlide} grid md:grid-cols-2 gap-y-10 md:gap-x-10 x-md:pt-10`}
-                key={p.id}
+                key={art.id}
               >
                 <div className="flex justify-center items-center">
-                  <img
-                    src={p.img}
+                  <Image
+                    width="400"
+                    height="400"
+                    src={art.mediaUrl}
                     className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[800px] max-h-[800px]`}
                     alt=""
                   />
@@ -48,7 +51,7 @@ export const FeaturedArtSlider = () => {
                 <div className="pt-2">
                   <div>
                     <div className="mb-[2rem] text-center">
-                      <p className={styles.title}>{p.header}</p>
+                      <p className={styles.title}>{art.paintingTitle}</p>
                     </div>
                   </div>
                 </div>

@@ -9,7 +9,6 @@ const link = { href: '/', label: 'HOME' };
 const link_gallery = { href: '/gallery', label: 'GALLERY' };
 
 export default function DigitalArt() {
-  console.log(DigitalWorks);
   return (
     <div className={styles.container}>
       <MainHeader />
