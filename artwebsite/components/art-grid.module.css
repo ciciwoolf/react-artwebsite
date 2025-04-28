@@ -23,6 +23,7 @@
 }
 
 .grid {
+  position: relative;
   align-self: center;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -35,6 +36,7 @@
 }
 
 .gridItem {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +46,42 @@
   box-shadow: 0 0 5px #352f36;
   transition: all 1s;
   max-width: 450px;
+}
+
+.gridOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3b444b;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.gridItem:hover .gridOverlay {
+  opacity: 0.85;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2
+}
+
+.overlayContent p {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Palanquin', sans-serif;
+
+   @media screen and (max-width: 425px) {
+    font-size: 1rem;
+   }
 }
 
 .gridItem img {
