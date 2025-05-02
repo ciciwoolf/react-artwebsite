@@ -8,6 +8,10 @@ export const ArtGrid = ({data}) => {
 
   if (isMobile) {
     event.preventDefault();
+    const all = event.currentTarget.querySelectorAll(`.${styles.gridOverlay}`);
+    all.forEach((overlay) => {
+      overlay.style.opacity = '0';
+    })
     const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
     if (overlay) {
       const currentOpacity = window.getComputedStyle(overlay).opacity;
