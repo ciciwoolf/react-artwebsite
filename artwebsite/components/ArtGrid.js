@@ -4,22 +4,23 @@ import Image from 'next/image';
 
 export const ArtGrid = ({data}) => {
   const handleClick = (event) => {
-  const isMobile = window.innerWidth < 450;
+    const isMobile = window.innerWidth <= 768;
 
-  if (isMobile) {
-    event.preventDefault();
-    const all = event.currentTarget.querySelectorAll(`.${styles.gridOverlay}`);
-    all.forEach((overlay) => {
-      overlay.style.opacity = '0';
-    })
-    const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
-    if (overlay) {
-      const currentOpacity = window.getComputedStyle(overlay).opacity;
-      overlay.style.opacity = currentOpacity === "0" ? "0.85" : "0";
-      console.log('Toggled opacity:', overlay.style.opacity);
+    if (isMobile) {
+      event.preventDefault();
+
+      const allOverlays = document.querySelectorAll(`.${styles.gridOverlay}`);
+      allOverlays.forEach((overlay) => {
+        overlay.style.opacity = '0';
+      });
+
+      const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
+      if (overlay) {
+        const currentOpacity = window.getComputedStyle(overlay).opacity;
+        overlay.style.opacity = currentOpacity === '0' ? '0.85' : '0';
+      }
     }
-  }
-};
+  };
 
   return (
     <div className={styles.gridContainer}>
