@@ -67,7 +67,20 @@
   opacity: 0.85;
   color: white;
   font-weight: 400;
-  font-size: 1.2
+  font-size: 1.2rem; 
+}
+
+@media screen and (max-width: 425px) {
+  .gridItem:hover .gridOverlay {
+    opacity: 0;
+  }
+}
+
+.gridOverlay.active {
+  opacity: 0.85;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .overlayContent p {
@@ -78,8 +91,10 @@
   color: white;
   text-transform: capitalize;
   font-family: 'Palanquin', sans-serif;
+}
 
-   @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
+  .overlayContent p {
     font-size: 1rem;
    }
 }
