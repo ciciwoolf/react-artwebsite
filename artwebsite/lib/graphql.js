@@ -32,6 +32,8 @@ const ALL_ARTWORK = `
           mediaUrl
           slideshow
           medium
+          publicId
+          cloudName
         }
       }
     }

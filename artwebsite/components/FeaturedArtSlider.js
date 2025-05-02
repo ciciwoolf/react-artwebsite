@@ -30,6 +30,7 @@ export const FeaturedArtSlider = ({ featuredWork }) => {
           pagination={{
             clickable: true,
             type: 'fraction',
+            el: '.swiper-pagination',
           }}
           spaceBetween={30}
         >
@@ -41,11 +42,11 @@ export const FeaturedArtSlider = ({ featuredWork }) => {
               >
                 <div className="flex justify-center items-center">
                   <Image
-                    width="400"
-                    height="400"
+                    width="354"
+                    height="630"
                     src={art.mediaUrl}
-                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[800px] max-h-[800px]`}
-                    alt=""
+                    className={`${styles.fadeIn} rounded object-cover w-full h-full min-w-[195px] min-h-[347px] max-w-[354px] max-h-[630px]`}
+                    alt={art.paintingTitle}
                   />
                 </div>
                 <div className="pt-2">
@@ -59,7 +60,7 @@ export const FeaturedArtSlider = ({ featuredWork }) => {
             );
           })}
         </Swiper>
-        <div className="flex flex-row items-center justify-center gap-6 mt-2 mb-4">
+        <div className="flex flex-row items-center justify-center gap-6 mt-1 mb-2 md:mt-2 md:mb-4">
           <ArrowLeftButton />
           <ArrowRightButton />
         </div>

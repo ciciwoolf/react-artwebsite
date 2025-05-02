@@ -18,6 +18,22 @@
   background-color: #ffffff;
 }
 
+.swiper-pagination {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-pagination {
+    font-size: 0.75rem;
+  }
+}
+  
+@media screen and (max-width: 425px) {
+  .swiper-pagination {
+    font-size: 0.5rem;
+  }
+}
+
 .title {
   font-family: 'Palanquin', sans-serif;
   font-size: 1rem;
@@ -25,13 +41,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .title a {
+  .title {
     font-size: 0.75rem;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .title a {
-    font-size: 0.6rem;
+  .title {
+    font-size: 14px;
   }
 }
+
+
