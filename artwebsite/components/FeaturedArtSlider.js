@@ -51,7 +51,7 @@ export const FeaturedArtSlider = ({ featuredWork }) => {
                 </div>
                 <div className="pt-2">
                   <div>
-                    <div className="mb-[2rem] text-center">
+                    <div className="mb-2 text-center">
                       <p className={styles.title}>{art.paintingTitle}</p>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ export const FeaturedArtSlider = ({ featuredWork }) => {
             );
           })}
         </Swiper>
-        <div className="flex flex-row items-center justify-center gap-6 mt-1 mb-2 md:mt-2 md:mb-4">
+        <div className="flex flex-row items-center justify-center gap-6 mb-2">
           <ArrowLeftButton />
           <ArrowRightButton />
         </div>

@@ -18,3 +18,10 @@
   margin: 2rem 0;
   text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+}
