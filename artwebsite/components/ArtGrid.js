@@ -1,35 +1,31 @@
 'use client';
-import { useEffect } from 'react';
 import styles from './art-grid.module.css';
 import Image from 'next/image';
 
 export const ArtGrid = ({data}) => {
-  useEffect(() => {
-    const gridItems = document.querySelectorAll(`.${styles.gridItem}`);
-
-    const handleClick = (event) => {
-      const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
-      if (overlay) {
-        overlay.classList.toggle('active');
-      }
-    };
-
-    gridItems.forEach((item) => {
-      item.addEventListener('click', handleClick);
-    });
-
-    return () => {
-      gridItems.forEach((item) => {
-        item.removeEventListener('click', handleClick)
-      })
+   const handleTouchStart = (event) => {
+    const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
+    if (overlay) {
+      overlay.classList.add('active');
     }
-  }, []);
+  };
+
+  const handleTouchEnd = (event) => {
+    const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
+    if (overlay) {
+      overlay.classList.remove('active');
+    }
+  };
 
   return (
     <div className={styles.gridContainer}>
         <div className={styles.grid}>
             {data.map((item, index) => (
-              <div key={index} className={styles.gridItem}>
+              <div key={index} 
+                className={styles.gridItem}
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+              >
                   <Image width="400" height="400" src={item.mediaUrl} alt={item.paintingTitle} />
                   <div className={styles.gridOverlay}>
                     <div className={styles.overlayContent}>

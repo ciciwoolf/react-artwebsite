@@ -63,24 +63,26 @@
   transition: .5s ease;
 }
 
-.gridItem:hover .gridOverlay {
-  opacity: 0.85;
-  color: white;
-  font-weight: 400;
-  font-size: 1.2rem; 
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 500px) {
   .gridItem:hover .gridOverlay {
-    opacity: 0;
+    opacity: 0.85;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem; 
   }
 }
 
-.gridOverlay.active {
-  opacity: 0.85;
-  color: white;
-  font-weight: 400;
-  font-size: 1.2rem;
+@media screen and (max-width: 499px) {
+  .gridItem:hover .gridOverlay {
+    opacity: 0;
+  }
+
+  .gridOverlay.active {
+    opacity: 0.85;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
 }
 
 .overlayContent p {
