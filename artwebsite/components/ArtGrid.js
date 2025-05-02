@@ -3,19 +3,19 @@ import styles from './art-grid.module.css';
 import Image from 'next/image';
 
 export const ArtGrid = ({data}) => {
-   const handleTouchStart = (event) => {
-    const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
-    if (overlay) {
-      overlay.classList.add('active');
-    }
-  };
+  const handleClick = (event) => {
+  const isMobile = window.innerWidth < 768;
 
-  const handleTouchEnd = (event) => {
+  if (isMobile) {
+    event.preventDefault();
     const overlay = event.currentTarget.querySelector(`.${styles.gridOverlay}`);
     if (overlay) {
-      overlay.classList.remove('active');
+      const currentOpacity = window.getComputedStyle(overlay).opacity;
+      overlay.style.opacity = currentOpacity === "0" ? "0.85" : "0";
+      console.log('Toggled opacity:', overlay.style.opacity);
     }
-  };
+  }
+};
 
   return (
     <div className={styles.gridContainer}>
@@ -23,8 +23,7 @@ export const ArtGrid = ({data}) => {
             {data.map((item, index) => (
               <div key={index} 
                 className={styles.gridItem}
-                onTouchStart={handleTouchStart}
-                onTouchEnd={handleTouchEnd}
+                onClick={handleClick}
               >
                   <Image width="400" height="400" src={item.mediaUrl} alt={item.paintingTitle} />
                   <div className={styles.gridOverlay}>
