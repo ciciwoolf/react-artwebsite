@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const ArtGrid = ({data}) => {
   const handleClick = (event) => {
-  const isMobile = window.innerWidth < 768;
+  const isMobile = window.innerWidth < 450;
 
   if (isMobile) {
     event.preventDefault();

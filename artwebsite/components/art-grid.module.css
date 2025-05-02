@@ -63,7 +63,7 @@
   transition: .5s ease;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
   .gridItem .gridOverlay:hover {
     opacity: 0.85;
     color: white;
