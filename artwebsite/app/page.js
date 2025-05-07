@@ -1,17 +1,24 @@
 import styles from './page.module.css';
-import { SquareWorks } from '@/data/data';
-import { FeaturedArtSlider } from '@/components/FeaturedArtSlider';
+import { getFeaturedArtworks } from '@/lib/graphql';
 import { MainHeader } from '@/components/MainHeader';
+import { NavLinks } from '@/components/NavLinks';
+import { FeaturedArtSlider } from '@/components/FeaturedArtSlider';
+import { Footer } from '@/components/Footer';
 
-export default function Home() {
+const link = { href: '/gallery', label: 'GALLERY' };
+
+export default async function Home() {
+  const featuredWork = await getFeaturedArtworks();
+  if (!featuredWork) {
+    console.log('No featured work found');
+    return null;
+  }
   return (
     <div className={styles.container}>
       <MainHeader />
-      <FeaturedArtSlider data={SquareWorks} />
-      <footer className={styles.footer}>
-        <a href="https://github.com/ciciwoolf">Github</a>
-        <a href="https://www.linkedin.com/in/christinewoolf/">LinkedIn</a>
-      </footer>
+      <NavLinks link={link} />
+      <FeaturedArtSlider featuredWork={featuredWork} />
+      <Footer />
     </div>
   );
 }

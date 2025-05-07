@@ -1,0 +1,28 @@
+.link {
+  align-self: flex-start;
+  margin-top: 20px;
+  padding: 0 5rem;
+  font: 1.1rem 'Palanquin', sans-serif;
+  font-weight: 300;
+  color: #ff6f61;
+}
+
+ @media screen and (max-width: 768px) {
+  .link {
+    font-size: 1rem;
+    align-self: center;
+  }    
+}
+
+@media screen and (max-width: 425px) {
+  .link {
+    font-size: 1rem;
+    align-self: center;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+}
+
+.link:hover {
+  color: #14b3ba !important;
+}

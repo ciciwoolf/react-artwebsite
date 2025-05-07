@@ -1,0 +1,95 @@
+.gridContainer {
+  height: 100%;
+  padding: 20 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: imageAppear;
+  animation-duration: 2s;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px;
+  }
+}
+
+@keyframes imageAppear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.grid {
+  position: relative;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 50px;
+  grid-auto-flow: dense;
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.gridItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #352f36;
+  transition: all 1s;
+  max-width: 450px;
+}
+
+.gridOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3b444b;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+@media screen and (min-width: 450px) {
+  .gridItem .gridOverlay:hover {
+    opacity: 0.85;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+ }
+}
+
+.overlayContent p {
+  padding: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Palanquin', sans-serif;
+}
+
+@media screen and (max-width: 425px) {
+  .overlayContent p {
+    font-size: 1rem;
+   }
+}
+
+.gridItem img {
+  border-radius: 5px;
+  transition: all 1s;
+  padding: 5px;
+}

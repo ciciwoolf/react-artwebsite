@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './featured-art-slider.module.css';
+import Image from 'next/image';
 
 import { Autoplay, Navigation, EffectFade, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,9 +13,10 @@ import 'swiper/css/pagination';
 import { ArrowLeftButton } from './ArrowLeftButton';
 import { ArrowRightButton } from './ArrowRightButton';
 
-export const FeaturedArtSlider = ({ data }) => {
+export const FeaturedArtSlider = ({ featuredWork }) => {
+
   return (
-    <section className="pt-12 pb-[2rem]">
+    <section className="mt-[1rem] mb-[1rem]">
       <div className="lg:mx-auto max-w-5xl mx-[1.5rem]">
         <Swiper
           modules={[Autoplay, Pagination, EffectFade, Navigation]}
@@ -28,26 +30,29 @@ export const FeaturedArtSlider = ({ data }) => {
           pagination={{
             clickable: true,
             type: 'fraction',
+            el: '.swiper-pagination',
           }}
           spaceBetween={30}
         >
-          {data.map((p) => {
+          {featuredWork.map((art) => {
             return (
               <SwiperSlide
                 className={`${styles.swiperSlide} grid md:grid-cols-2 gap-y-10 md:gap-x-10 x-md:pt-10`}
-                key={p.id}
+                key={art.id}
               >
                 <div className="flex justify-center items-center">
-                  <img
-                    src={p.img}
-                    className={`${styles.fadeIn} rounded object-cover w-full h-full max-w-[640px] max-h-[640px]`}
-                    alt=""
+                  <Image
+                    width="354"
+                    height="630"
+                    src={art.mediaUrl}
+                    className={`${styles.fadeIn} rounded object-cover w-full h-full min-w-[195px] min-h-[347px] max-w-[354px] max-h-[630px]`}
+                    alt={art.paintingTitle}
                   />
                 </div>
-                <div className="pt-4">
+                <div className="pt-2">
                   <div>
-                    <div className="pt-3 pb-3 mb-[2rem] text-center">
-                      <p className={styles.title}>{p.header}</p>
+                    <div className="mb-2 text-center">
+                      <p className={styles.title}>{art.paintingTitle}</p>
                     </div>
                   </div>
                 </div>
@@ -55,7 +60,7 @@ export const FeaturedArtSlider = ({ data }) => {
             );
           })}
         </Swiper>
-        <div className="flex flex-row items-center justify-center gap-6 mt-6">
+        <div className="flex flex-row items-center justify-center gap-6 mb-2">
           <ArrowLeftButton />
           <ArrowRightButton />
         </div>

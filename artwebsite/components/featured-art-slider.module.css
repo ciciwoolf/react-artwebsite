@@ -18,20 +18,38 @@
   background-color: #ffffff;
 }
 
-.title {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem;
+.swiper-pagination {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-  .title a {
-    font-size: 1rem;
+  .swiper-pagination {
+    font-size: 0.75rem;
+  }
+}
+  
+@media screen and (max-width: 425px) {
+  .swiper-pagination {
+    font-size: 0.5rem;
+  }
+}
+
+.title {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1rem;
+  color: #30292f;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 0.75rem;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .title a {
-    font-size: 0.75rem;
+  .title {
+    font-size: 14px;
   }
 }
+
+

@@ -1,8 +1,10 @@
 import './globals.css';
 
 export const metadata = {
-  title: "Cici's Art",
-  description: "Cici Woolf's Art Website",
+  title: "The Art of Cici Woolf",
+  description: "Cici Woolf's Digital Art Portfolio.",
+  keywords: "art, software, Christine Woolf, Cici Woolf, paintings",
+  author: "Christine 'Cici' Woolf",
 };
 
 export default function RootLayout({ children }) {
